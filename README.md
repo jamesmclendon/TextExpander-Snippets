@@ -11,9 +11,13 @@ Greeting, recipient's name, and signature.
 
 ![Gmail salutations screenshot](https://raw.githubusercontent.com/jamesmclendon/TextExpander-Snippets/master/Gmail-salutations.png)
 
-### Open tabs - URLs & Open tabs - Markdown links
+### Select tab
 
 Select a URL or Markdown link from a list of open Chrome and/or Safari tabs.
+
+### List tabs
+
+List open Safari and Chrome tabs as a Markdown bulleted list.
 
 ### "I'm Feeling Lucky"
 

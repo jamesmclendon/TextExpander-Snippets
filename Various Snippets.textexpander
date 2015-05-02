@@ -70,6 +70,34 @@ Ipsum, NY 10000%fillpartend%</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
+			<string>zrs</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-05-12T19:29:10Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Random string</string>
+			<key>lastUsed</key>
+			<date>2015-05-01T22:51:16Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-01T22:50:54Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+# Generate a random string.
+
+export LC_CTYPE=C
+cat /dev/urandom | tr -dc '%fillpart:default=yes%a-z%fillpartend%%fillpart:default=yes%A-Z%fillpartend%%fillpart:default=yes%0-9%fillpartend%' | fold -w "%filltext:name=length:default=7%" | head -n 1 | tr -d '\n'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>6</integer>
+			<key>uuidString</key>
+			<string>95EC8FCC-D110-4608-82EA-84565CBCD4BD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>zrn</string>
 			<key>abbreviationMode</key>
 			<integer>1</integer>
@@ -120,11 +148,11 @@ echo $first_name %fillpart:name=Last Name:default=yes%$(get_name http://www2.cen
 			<key>flags</key>
 			<integer>0</integer>
 			<key>label</key>
-			<string>"I'm Feeling Lucky" hyperlink</string>
+			<string>"I'm Feeling Lucky" - URL</string>
 			<key>lastUsed</key>
-			<date>2015-05-01T23:50:22Z</date>
+			<date>2015-05-02T00:33:34Z</date>
 			<key>modificationDate</key>
-			<date>2015-05-01T21:13:55Z</date>
+			<date>2015-05-02T00:55:19Z</date>
 			<key>plainText</key>
 			<string>#!/bin/bash
 # Credit to http://stackoverflow.com/a/7573854/4322107
@@ -149,11 +177,11 @@ echo -n $search</string>
 			<key>flags</key>
 			<integer>0</integer>
 			<key>label</key>
-			<string>"I'm Feeling Lucky" Markdown hyperlink</string>
+			<string>"I'm Feeling Lucky" - Markdown</string>
 			<key>lastUsed</key>
-			<date>2015-05-01T04:03:19Z</date>
+			<date>2015-05-02T00:33:18Z</date>
 			<key>modificationDate</key>
-			<date>2015-05-01T21:13:46Z</date>
+			<date>2015-05-02T00:54:55Z</date>
 			<key>plainText</key>
 			<string>#!/bin/bash
 # Credit to http://stackoverflow.com/a/7573854/4322107
@@ -171,34 +199,6 @@ echo -n \[$search\]\($result\)</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>zrs</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2014-05-12T19:29:10Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Random string</string>
-			<key>lastUsed</key>
-			<date>2015-05-01T22:51:16Z</date>
-			<key>modificationDate</key>
-			<date>2015-05-01T22:50:54Z</date>
-			<key>plainText</key>
-			<string>#!/bin/bash
-# Generate a random string.
-
-export LC_CTYPE=C
-cat /dev/urandom | tr -dc '%fillpart:default=yes%a-z%fillpartend%%fillpart:default=yes%A-Z%fillpartend%%fillpart:default=yes%0-9%fillpartend%' | fold -w "%filltext:name=length:default=7%" | head -n 1 | tr -d '\n'</string>
-			<key>snippetType</key>
-			<integer>3</integer>
-			<key>useCount</key>
-			<integer>6</integer>
-			<key>uuidString</key>
-			<string>95EC8FCC-D110-4608-82EA-84565CBCD4BD</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>zur</string>
 			<key>abbreviationMode</key>
 			<integer>1</integer>
@@ -207,13 +207,13 @@ cat /dev/urandom | tr -dc '%fillpart:default=yes%a-z%fillpartend%%fillpart:defau
 			<key>flags</key>
 			<integer>1</integer>
 			<key>label</key>
-			<string>Open tabs - URLs</string>
+			<string>Select tab - URL</string>
 			<key>lastUsed</key>
 			<date>2015-05-01T19:12:21Z</date>
 			<key>modificationDate</key>
-			<date>2015-05-01T22:58:22Z</date>
+			<date>2015-05-02T00:58:54Z</date>
 			<key>plainText</key>
-			<string>(* Select a URL from a list of open Chrome and Safari tabs.2015-04-30jamesmclendon.com *)
+			<string>(* Select a URL from a list of Chrome and Safari tabs.2015-04-30jamesmclendon.com *)
 
 set SafariWindows to 0set ChromeWindows to 0if application "Safari" is running then	set SafariWindows to number of windows of application "Safari"end ifif application "Google Chrome" is running then	set ChromeWindows to number of windows of application "Google Chrome"end ifif SafariWindows = 0 and ChromeWindows = 0 then	display alert "No tabs!"	error number -128end ifset links to {}
 set theApp to (path to frontmost application as text)if SafariWindows is not equal to 0 then	tell application "Safari"		repeat with t in every tab in front window			set the end of links to (the URL of t as string)		end repeat	end tellend ifif ChromeWindows is not equal to 0 then	tell application "Google Chrome"		repeat with t in every tab in front window			set the end of links to (the URL of t as string)		end repeat	end tellend iftell application "System Events"
@@ -238,13 +238,13 @@ if theTab as string is not "false"	return theTab as stringend if</string>
 			<key>flags</key>
 			<integer>1</integer>
 			<key>label</key>
-			<string>Open tabs - Markdown links</string>
+			<string>Select tab - Markdown</string>
 			<key>lastUsed</key>
 			<date>2015-05-01T23:27:03Z</date>
 			<key>modificationDate</key>
-			<date>2015-05-01T23:33:50Z</date>
+			<date>2015-05-02T00:58:50Z</date>
 			<key>plainText</key>
-			<string>(* Select a Markdown link from a list of open Chrome and Safari tabs.2015-04-30jamesmclendon.com *)
+			<string>(* Select a Markdown link from a list of Chrome and Safari tabs.2015-04-30jamesmclendon.com *)
 
 set SafariWindows to 0set ChromeWindows to 0if application "Safari" is running then	set SafariWindows to number of windows of application "Safari"end ifif application "Google Chrome" is running then	set ChromeWindows to number of windows of application "Google Chrome"end ifif SafariWindows = 0 and ChromeWindows = 0 then	display alert "No tabs!"	error number -128end ifset links to {}
 set theApp to (path to frontmost application as text)
@@ -275,7 +275,7 @@ delay .13if theTab as string is not "false"	return theTab as stringend if</s
 			<key>lastUsed</key>
 			<date>2015-01-15T19:05:27Z</date>
 			<key>modificationDate</key>
-			<date>2015-05-02T00:15:11Z</date>
+			<date>2015-05-02T00:58:56Z</date>
 			<key>plainText</key>
 			<string>(* Get the recipient's name from a Gmail thread. Not meant to run as a snippet. Include inside "Gmail greeting and signature". Replace "Your Name" below *)
 
@@ -286,6 +286,65 @@ set theJS to "var arr = document.getElementsByClassName('gD'); for (var i = 0; i
 			<integer>4</integer>
 			<key>uuidString</key>
 			<string>B53C0838-E4AC-4F6F-A76F-F043ED4A0AE9</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>zlt</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2015-05-02T00:43:36Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string>List tabs - Markdown</string>
+			<key>lastUsed</key>
+			<date>2015-05-02T00:49:16Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-02T00:58:45Z</date>
+			<key>plainText</key>
+			<string>(* List all Safari and Chrome tabs as a Markdown list *)
+
+set SafariWindows to 0
+set ChromeWindows to 0
+if application "Safari" is running then
+	set SafariWindows to number of windows of application "Safari"
+end if
+if application "Google Chrome" is running then
+	set ChromeWindows to number of windows of application "Google Chrome"
+end if
+if SafariWindows = 0 and ChromeWindows = 0 then
+	display alert "No tabs!"
+	error number -128
+end if
+set links to {}
+if SafariWindows is not equal to 0 then
+	tell application "Safari"
+		repeat with t in every tab in front window
+			set the end of links to ("- [" &amp; the name of t as string &amp; "](" &amp; the URL of t as string) &amp; ")
+"
+		end repeat
+	end tell
+end if
+if ChromeWindows is not equal to 0 then
+	tell application "Google Chrome"
+		repeat with t in every tab in front window
+			set the end of links to ("- [" &amp; the title of t as string &amp; "](" &amp; the URL of t as string) &amp; ")
+"
+		end repeat
+	end tell
+end if
+tell application (path to frontmost application as text)
+	activate
+	return links as string
+end tell
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F97B1917-08DE-4BA9-8B85-03E67841238C</string>
 		</dict>
 	</array>
 </dict>
