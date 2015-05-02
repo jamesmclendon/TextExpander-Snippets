@@ -7,7 +7,7 @@
 		<key>expandAfterMode</key>
 		<integer>0</integer>
 		<key>groupName</key>
-		<string>TextExpander Snippets</string>
+		<string>Various Snippets</string>
 	</dict>
 	<key>snippetsTE2</key>
 	<array>
@@ -275,7 +275,7 @@ delay .13if theTab as string is not "false"	return theTab as stringend if</s
 			<key>lastUsed</key>
 			<date>2015-01-15T19:05:27Z</date>
 			<key>modificationDate</key>
-			<date>2015-05-02T00:03:15Z</date>
+			<date>2015-05-02T00:15:11Z</date>
 			<key>plainText</key>
 			<string>(* Get the recipient's name from a Gmail thread. Not meant to run as a snippet. Include inside "Gmail greeting and signature". Replace "Your Name" below *)
 
