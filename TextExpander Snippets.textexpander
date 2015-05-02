@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>TextExpander Snippets</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>zim</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-04-14T18:18:30Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>ImageMagick/GraphicsMagick</string>
+			<key>lastUsed</key>
+			<date>2015-05-01T19:45:12Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-01T19:49:10Z</date>
+			<key>plainText</key>
+			<string>%filltext:name="gm" for GraphicsMagick:default=gm :width=22%%fillpopup:convert:mogrify%%fillpart% -format jpg%fillpartend%%fillpart:% -interlace Plane%fillpartend%%fillpart% -strip%fillpartend%%fillpart% -gaussian-blur %filltext:name=amount (0-1)%%fillpartend%%fillpart% -quality %filltext:name=quality (1-100)%%%%fillpartend%%fillpart% -resize '%filltext:name=maximum width%&gt;'%fillpartend%%fillpart% -geometry 'x%filltext:name=maximum height%&gt;'%fillpartend%%fillpart% -shave %filltext:name=X%x%filltext:name=Y%%fillpartend%%fillpart% -trim%fillpartend%%fillpart% -fuzz %filltext:name=threshold (1-100)%%%%fillpartend%%fillpart% *%fillpartend%%fillpart% | imageoptim%fillpartend%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>37</integer>
+			<key>uuidString</key>
+			<string>184D7288-4BA7-490E-915F-94FA002FDED7</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>zhix</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2013-07-11T16:15:23Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Gmail salutations</string>
+			<key>lastUsed</key>
+			<date>2015-05-01T22:35:31Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-01T22:39:33Z</date>
+			<key>plainText</key>
+			<string>%fillpart:default=yes%%fillpopup:name=opening:default=Hi:Hello:Hey:Dear:Greetings% %snippet:recipientName%,
+
+%|
+%fillpartend%
+%fillpart:default=yes%%fillpopup:name=closing:default=Best:Thanks:Best regards:Warm regards:Sincerely%,%fillpartend%
+John%fillpart% Doe%fillpartend%
+%fillpart%johndoe.com%fillpartend%
+%fillpart%(555) 555-5555%fillpartend%
+%fillpart%123 Lorem
+Ipsum, NY 10000%fillpartend%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>292</integer>
+			<key>uuidString</key>
+			<string>DCBDF301-330B-4FF3-A7B6-3883105CE705</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>zrn</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-03-24T16:59:08Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Random name</string>
+			<key>lastUsed</key>
+			<date>2015-05-01T05:26:58Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-01T22:48:24Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+# Generate a random name from US Census data.
+
+get_name() {
+	curl -s $1 | perl -MList::Util=shuffle -e 'print shuffle(&lt;STDIN&gt;);' | head -n 1 | tr A-Z a-z | awk '{print toupper(substr($1,1,1))substr($1,2)}'
+}
+
+first_name=%fillpopup:default=random:female:male%
+
+if [ $first_name = male ]; then
+	first_name=$(get_name http://www2.census.gov/topics/genealogy/1990surnames/dist.male.first)
+elif [ $first_name = female ]; then
+	first_name=$(get_name http://www2.census.gov/topics/genealogy/1990surnames/dist.female.first)
+else
+	declare -a names=("$(get_name http://www2.census.gov/topics/genealogy/1990surnames/dist.male.first)" "$(get_name http://www2.census.gov/topics/genealogy/1990surnames/dist.female.first)")
+	first_name=${names[$(( $RANDOM % ${#names[*]} ))]}
+fi
+
+echo $first_name %fillpart:name=Last Name:default=yes%$(get_name http://www2.census.gov/topics/genealogy/1990surnames/dist.all.last)%fillpartend%</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>105</integer>
+			<key>uuidString</key>
+			<string>74F7AE96-3E69-45D4-976D-7731D9D62829</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>zgl</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-03-18T19:40:02Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>"I'm Feeling Lucky" hyperlink</string>
+			<key>lastUsed</key>
+			<date>2015-05-01T23:50:22Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-01T21:13:55Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+# Credit to http://stackoverflow.com/a/7573854/4322107
+
+search=`curl -s --get --data-urlencode "q=%filltext:name=Search Terms%" http://ajax.googleapis.com/ajax/services/search/web?v=1.0 | sed 's/"unescapedUrl":"\([^"]*\).*/\1/;s/.*GwebSearch",//'`
+
+echo -n $search</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>38</integer>
+			<key>uuidString</key>
+			<string>1F05A5BF-F80E-4D2F-BD8A-2CFEBF1CBC17</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>zmgl</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-03-18T19:40:02Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>"I'm Feeling Lucky" Markdown hyperlink</string>
+			<key>lastUsed</key>
+			<date>2015-05-01T04:03:19Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-01T21:13:46Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+# Credit to http://stackoverflow.com/a/7573854/4322107
+
+search="%filltext:name=Search Terms%"
+result=$(curl -s --get --data-urlencode "q=$search" http://ajax.googleapis.com/ajax/services/search/web?v=1.0 | sed 's/"unescapedUrl":"\([^"]*\).*/\1/;s/.*GwebSearch",//')
+
+echo -n \[$search\]\($result\)</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>90</integer>
+			<key>uuidString</key>
+			<string>10D743A1-3398-47D1-856F-A608DFB4C1D8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>zrs</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-05-12T19:29:10Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Random string</string>
+			<key>lastUsed</key>
+			<date>2015-05-01T22:51:16Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-01T22:50:54Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+# Generate a random string.
+
+export LC_CTYPE=C
+cat /dev/urandom | tr -dc '%fillpart:default=yes%a-z%fillpartend%%fillpart:default=yes%A-Z%fillpartend%%fillpart:default=yes%0-9%fillpartend%' | fold -w "%filltext:name=length:default=7%" | head -n 1 | tr -d '\n'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>6</integer>
+			<key>uuidString</key>
+			<string>95EC8FCC-D110-4608-82EA-84565CBCD4BD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>zur</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2015-05-01T03:23:26Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string>Open tabs - URLs</string>
+			<key>lastUsed</key>
+			<date>2015-05-01T19:12:21Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-01T22:58:22Z</date>
+			<key>plainText</key>
+			<string>(* Select a URL from a list of open Chrome and Safari tabs.2015-04-30jamesmclendon.com *)
+
+set SafariWindows to 0set ChromeWindows to 0if application "Safari" is running then	set SafariWindows to number of windows of application "Safari"end ifif application "Google Chrome" is running then	set ChromeWindows to number of windows of application "Google Chrome"end ifif SafariWindows = 0 and ChromeWindows = 0 then	display alert "No tabs!"	error number -128end ifset links to {}
+set theApp to (path to frontmost application as text)if SafariWindows is not equal to 0 then	tell application "Safari"		repeat with t in every tab in front window			set the end of links to (the URL of t as string)		end repeat	end tellend ifif ChromeWindows is not equal to 0 then	tell application "Google Chrome"		repeat with t in every tab in front window			set the end of links to (the URL of t as string)		end repeat	end tellend iftell application "System Events"
+	activate	set theTab to (choose from list of links) as stringend tell
+activate application theApp
+delay .13
+if theTab as string is not "false"	return theTab as stringend if</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>50</integer>
+			<key>uuidString</key>
+			<string>B80FD300-E0D5-4A29-A260-9AA1071464DD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>zml</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2015-05-01T03:23:26Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string>Open tabs - Markdown links</string>
+			<key>lastUsed</key>
+			<date>2015-05-01T23:27:03Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-01T23:33:50Z</date>
+			<key>plainText</key>
+			<string>(* Select a Markdown link from a list of open Chrome and Safari tabs.2015-04-30jamesmclendon.com *)
+
+set SafariWindows to 0set ChromeWindows to 0if application "Safari" is running then	set SafariWindows to number of windows of application "Safari"end ifif application "Google Chrome" is running then	set ChromeWindows to number of windows of application "Google Chrome"end ifif SafariWindows = 0 and ChromeWindows = 0 then	display alert "No tabs!"	error number -128end ifset links to {}
+set theApp to (path to frontmost application as text)
+tell application "System Events"	set titles to button returned of (display dialog "Titles?" buttons {"Cancel", "No", "Yes"} default button "Yes")
+end tellset theTitle to ""if SafariWindows is not equal to 0 then	tell application "Safari"		repeat with t in every tab in front window			if titles = "Yes" then				set theTitle to (text of (the name of t as string))			end if			set the end of links to ("[" &amp; theTitle &amp; "](" &amp; the URL of t as string) &amp; ")"		end repeat	end tellend ifif ChromeWindows is not equal to 0 then	tell application "Google Chrome"		repeat with t in every tab in front window			if titles = "Yes" then				set theTitle to (text of (the title of t as string))			end if			set the end of links to ("[" &amp; theTitle &amp; "](" &amp; the URL of t as string) &amp; ")"		end repeat	end tellend iftell application "System Events"	set theTab to (choose from list of links) as stringend tell
+activate application theApp
+delay .13if theTab as string is not "false"	return theTab as stringend if</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>50</integer>
+			<key>uuidString</key>
+			<string>81231E05-8EFD-43BF-A5FD-D10D17E9FC1A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>recipientName</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2014-10-23T16:03:16Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Recipient autofill for "Email greeting &amp; signature".</string>
+			<key>lastUsed</key>
+			<date>2015-01-15T19:05:27Z</date>
+			<key>modificationDate</key>
+			<date>2015-05-02T00:03:15Z</date>
+			<key>plainText</key>
+			<string>(* Get the recipient's name from a Gmail thread. Not meant to run as a snippet. Include inside "Gmail greeting and signature". Replace "Your Name" below *)
+
+set theJS to "var arr = document.getElementsByClassName('gD'); for (var i = 0; i &lt; arr.length; i++) {if (arr[i].innerHTML != 'Your Name') var name = arr[i].innerHTML.split(' ')[0]; name};"tell application "System Events"	set theBrowser to name of the first process whose frontmost is trueend tellif theBrowser is "Safari" then	tell application "Safari"		set myVar to do JavaScript theJS in current tab of window 1		return myVar	end tellelse if theBrowser is "Google Chrome" then	tell application "Google Chrome"		set myVar to execute front window's active tab javascript theJS		return myVar	end tellelse	display alert "Open a Gmail thread in Chrome or Safari first!"end if</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>B53C0838-E4AC-4F6F-A76F-F043ED4A0AE9</string>
+		</dict>
+	</array>
+</dict>
+</plist>
