@@ -31,8 +31,3 @@ Generate a random string. Adjust length, and toggle uppercase, lowercase, and nu
 
 Generate a random name from US Census data.
 
-### [ImageMagick](http://www.imagemagick.org/)/[GraphicsMagick](http://www.graphicsmagick.org/)
-
-Select frequently used operators.
-
-![ImageMagick-GraphicsMagick screenshot](https://raw.githubusercontent.com/jamesmclendon/TextExpander-Snippets/master/ImageMagick-GraphicsMagick.png)
