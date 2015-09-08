@@ -13,6 +13,138 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>the fact that</string>
+			<key>abbreviationMode</key>
+			<integer>2</integer>
+			<key>creationDate</key>
+			<date>2015-09-08T16:10:06Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-09-08T16:10:19Z</date>
+			<key>plainText</key>
+			<string></string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>CA139CAE-992D-4B23-A47C-A74C7244BEA4</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>she is a woman who</string>
+			<key>abbreviationMode</key>
+			<integer>2</integer>
+			<key>creationDate</key>
+			<date>2015-09-08T16:07:35Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-09-08T16:07:44Z</date>
+			<key>plainText</key>
+			<string>she</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>2C1C6735-8405-4B5F-9F20-4B3E89C8C836</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>he is a man who</string>
+			<key>abbreviationMode</key>
+			<integer>2</integer>
+			<key>creationDate</key>
+			<date>2015-09-08T16:07:03Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-09-08T16:07:28Z</date>
+			<key>plainText</key>
+			<string>he</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>770A3BBD-1097-4817-84AB-D7AC35572D37</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>fuel purposes</string>
+			<key>abbreviationMode</key>
+			<integer>2</integer>
+			<key>creationDate</key>
+			<date>2015-09-08T16:06:40Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-09-08T16:06:55Z</date>
+			<key>plainText</key>
+			<string>fuel</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>91257334-F11F-4199-A7F9-AC07B1908E66</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>there is no doubt</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-09-08T16:05:49Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-09-08T16:06:30Z</date>
+			<key>plainText</key>
+			<string>no doubt</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>27F1257A-DB34-43AA-8BDD-80F3A9322246</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>the question as to whether</string>
+			<key>abbreviationMode</key>
+			<integer>2</integer>
+			<key>creationDate</key>
+			<date>2015-09-08T16:04:31Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-09-08T16:05:13Z</date>
+			<key>plainText</key>
+			<string>whether</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>FF022733-08F9-4EEC-A3D3-DF9C89CE386F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>it is important to note that</string>
 			<key>abbreviationMode</key>
 			<integer>2</integer>
@@ -120,50 +252,6 @@
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>604DF2F7-C8FB-4F5F-9241-AE8929921305</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>gentleman and a scholar</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-05-09T22:47:56Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-05-09T22:48:06Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>7B98FB05-2B08-409C-B7B5-07F235D7201E</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>win the internet</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-05-09T16:30:22Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-05-09T16:30:28Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>BF2BE3BB-21AB-4854-8F67-F658E3F02582</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -409,28 +497,6 @@
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>achilles heel</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-05-04T17:13:15Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-05-04T17:13:18Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>8C0FC12C-1DEE-4FA1-94BF-ED2430C2C165</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>added bonus</string>
 			<key>abbreviationMode</key>
 			<integer>1</integer>
@@ -519,28 +585,6 @@
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>agree to disagree</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T04:02:32Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T04:02:34Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>09A09637-CA84-4093-9D6D-7B0F8452B431</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>all of the</string>
 			<key>abbreviationMode</key>
 			<integer>2</integer>
@@ -582,28 +626,6 @@
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>A095690F-1242-47B3-A344-C292A55BFEFB</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>although/though</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T03:37:41Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T03:37:54Z</date>
-			<key>plainText</key>
-			<string>set theWords to {"although", "though"}set listLength to count theWordsset randomNumber to (random number from 1 to listLength)set selectedWord to item randomNumber of theWordsreturn selectedWord</string>
-			<key>snippetType</key>
-			<integer>2</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>B78A5CCF-5DA8-4E0C-8565-7335596B541B</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -661,9 +683,9 @@
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:38:39Z</date>
+			<date>2015-09-08T15:46:04Z</date>
 			<key>plainText</key>
-			<string>%snippet:because/since%</string>
+			<string>since</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -761,28 +783,6 @@
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>awesomesauce</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-28T17:34:02Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-28T17:34:50Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>3599F674-B848-416E-86E7-40C8752742B1</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>ballpark figure</string>
 			<key>abbreviationMode</key>
 			<integer>1</integer>
@@ -793,9 +793,9 @@
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T02:17:03Z</date>
+			<date>2015-09-08T15:45:29Z</date>
 			<key>plainText</key>
-			<string></string>
+			<string>estimate</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -846,28 +846,6 @@
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>8E8C0A37-2D96-497D-A391-D066024F9A7B</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>because/since</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T03:37:41Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T03:37:54Z</date>
-			<key>plainText</key>
-			<string>set theWords to {"because", "since"}set listLength to count theWordsset randomNumber to (random number from 1 to listLength)set selectedWord to item randomNumber of theWordsreturn selectedWord</string>
-			<key>snippetType</key>
-			<integer>2</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>BB43F7F9-A8F8-465F-BB0C-ABB64CB207F3</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -934,28 +912,6 @@
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>C204C727-C365-4B67-99F3-8B3573B68792</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>bromance</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-29T14:57:31Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-29T14:57:36Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>E6F2551B-BC4F-48DC-B962-82477C435601</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1311,50 +1267,6 @@
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>could care less</string>
-			<key>abbreviationMode</key>
-			<integer>2</integer>
-			<key>creationDate</key>
-			<date>2015-05-04T17:11:19Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-05-04T17:11:57Z</date>
-			<key>plainText</key>
-			<string>don't care</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>D347E356-B7FE-4A18-8857-632BD223E131</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>couldn't care less</string>
-			<key>abbreviationMode</key>
-			<integer>2</integer>
-			<key>creationDate</key>
-			<date>2015-05-04T17:11:34Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-05-04T17:11:53Z</date>
-			<key>plainText</key>
-			<string>don't care</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>B6F7BB9C-E4CF-424F-8869-AE8027502227</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>current status</string>
 			<key>abbreviationMode</key>
 			<integer>2</integer>
@@ -1409,9 +1321,9 @@
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:50:34Z</date>
+			<date>2015-09-08T15:47:27Z</date>
 			<key>plainText</key>
-			<string>%snippet:although/though%</string>
+			<string>though</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -1497,9 +1409,9 @@
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:38:45Z</date>
+			<date>2015-09-08T15:47:56Z</date>
 			<key>plainText</key>
-			<string>%snippet:because/since%</string>
+			<string>since</string>
 			<key>snippetType</key>
 			<integer>2</integer>
 			<key>useCount</key>
@@ -1682,50 +1594,6 @@
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>FDD4BCD0-78D2-4FD0-A9FA-EB63DEBE7E02</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>expresso</string>
-			<key>abbreviationMode</key>
-			<integer>2</integer>
-			<key>creationDate</key>
-			<date>2015-04-29T15:10:39Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-29T15:33:54Z</date>
-			<key>plainText</key>
-			<string>espresso</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>719831B3-2693-4C7C-88FF-D9984536507B</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>face the music</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T03:17:15Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T03:17:23Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>33E89959-5FEA-4B94-8537-D215E75ECDB6</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1981,9 +1849,9 @@
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:39:37Z</date>
+			<date>2015-09-08T15:50:41Z</date>
 			<key>plainText</key>
-			<string>%snippet:because/since%</string>
+			<string>since</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -2169,28 +2037,6 @@
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>ginormous</string>
-			<key>abbreviationMode</key>
-			<integer>2</integer>
-			<key>creationDate</key>
-			<date>2015-04-29T15:18:51Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-29T15:33:35Z</date>
-			<key>plainText</key>
-			<string>enormous</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>33B080AC-149D-41B6-95FC-670860E78343</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>given the fact that</string>
 			<key>abbreviationMode</key>
 			<integer>2</integer>
@@ -2201,37 +2047,15 @@
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:38:48Z</date>
+			<date>2015-09-08T15:51:11Z</date>
 			<key>plainText</key>
-			<string>%snippet:because/since%</string>
+			<string>since</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>35B709FE-2DD2-4B43-B56E-A25DE7E9BCFC</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>go with the flow</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T03:57:23Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T03:57:26Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>65AA2FF0-B3F6-4C24-BFA8-7A9DC62414BA</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2367,7 +2191,7 @@ can}</string>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-08-04T04:00:15Z</date>
+			<date>2015-09-08T16:10:21Z</date>
 			<key>plainText</key>
 			<string>can</string>
 			<key>richText</key>
@@ -2411,28 +2235,6 @@ can}</string>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>3D89F309-5134-45FF-9358-0F1A2310494E</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>I can't even</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-28T17:28:05Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-28T17:28:10Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>B73F6DBE-BB13-42D0-94F7-B6AB303D42D5</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2556,9 +2358,9 @@ can}</string>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:38:50Z</date>
+			<date>2015-09-08T15:54:28Z</date>
 			<key>plainText</key>
-			<string>%snippet:because/since%</string>
+			<string>since</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -2622,9 +2424,9 @@ can}</string>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:50:08Z</date>
+			<date>2015-09-08T15:52:17Z</date>
 			<key>plainText</key>
-			<string>%snippet:although/though%</string>
+			<string>though</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -2666,9 +2468,9 @@ can}</string>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:38:53Z</date>
+			<date>2015-09-08T15:52:23Z</date>
 			<key>plainText</key>
-			<string>%snippet:because/since%</string>
+			<string>since</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -2832,28 +2634,6 @@ can}</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>low hanging fruit</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T02:18:27Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T02:18:31Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>0D10E3D7-F287-4EB2-B19E-AB3DEE1D475C</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>major breakthrough</string>
 			<key>abbreviationMode</key>
 			<integer>1</integer>
@@ -2898,28 +2678,6 @@ can}</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>meet in the middle</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T02:28:29Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T02:28:32Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>E113879C-DD1F-4C82-A33F-90FDC8534B4E</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>merge together</string>
 			<key>abbreviationMode</key>
 			<integer>1</integer>
@@ -2939,28 +2697,6 @@ can}</string>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>B91E2A33-3970-458C-AB88-F343B1E9041F</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>metrosexual</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T22:20:45Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T22:20:49Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>C9E20AAC-26F2-4137-BD9C-D602DFAC0E78</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -3027,28 +2763,6 @@ can}</string>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>2663CF71-16C0-4B3A-87BC-57F933951C2C</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>more fish in the sea</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T03:58:52Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T03:58:54Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>19E34922-28CB-4572-B48A-255AED62692A</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -3392,9 +3106,9 @@ can}</string>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:39:54Z</date>
+			<date>2015-09-08T15:54:21Z</date>
 			<key>plainText</key>
-			<string>%snippet:because/since%</string>
+			<string>since</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -3524,9 +3238,9 @@ can}</string>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2015-04-30T03:40:26Z</date>
+			<date>2015-09-08T15:54:33Z</date>
 			<key>plainText</key>
-			<string>%snippet:because/since%</string>
+			<string>since</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -3690,28 +3404,6 @@ can}</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>perception is reality</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T04:00:13Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T04:00:17Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>3CA80BC9-7C88-4328-9FC4-A41C8C6A0EF7</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>personal opinion</string>
 			<key>abbreviationMode</key>
 			<integer>2</integer>
@@ -3797,28 +3489,6 @@ can}</string>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>8B519A18-282B-48E7-A10A-0969C1CE07A8</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>potentially capable</string>
-			<key>abbreviationMode</key>
-			<integer>2</integer>
-			<key>creationDate</key>
-			<date>2015-05-04T17:35:36Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-05-04T17:35:57Z</date>
-			<key>plainText</key>
-			<string>capable</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>5790AA7B-A247-4D6B-B3BD-873A6C2F67C9</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -3998,28 +3668,6 @@ can}</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>Right?</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2015-04-28T17:40:26Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-28T17:40:45Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>3CA980EB-4A4C-4646-9EB1-A8FDC056CF21</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>skill set</string>
 			<key>abbreviationMode</key>
 			<integer>1</integer>
@@ -4086,28 +3734,6 @@ can}</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>straightlaced</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-05-04T17:46:59Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-05-04T17:47:03Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>A8493ACA-516F-4409-90DC-7154C76DBBDF</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>successfully completed</string>
 			<key>abbreviationMode</key>
 			<integer>2</integer>
@@ -4127,28 +3753,6 @@ can}</string>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>545F73BD-05BA-4270-8C56-F04460096C4E</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>such is life</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T03:55:30Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T03:55:36Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>8EFD70B9-07A2-480E-AD00-DEDB782839C1</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -4614,28 +4218,6 @@ can}</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>what’s done is done</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T03:56:26Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T03:57:13Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>521A5690-F18F-4493-AC23-8A994A25584E</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
 			<string>whether or not</string>
 			<key>abbreviationMode</key>
 			<integer>1</integer>
@@ -4655,28 +4237,6 @@ can}</string>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>23C6A920-D7A0-4E55-8ED1-CE5934CE08A1</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>win-win</string>
-			<key>abbreviationMode</key>
-			<integer>1</integer>
-			<key>creationDate</key>
-			<date>2015-04-30T02:15:55Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string></string>
-			<key>modificationDate</key>
-			<date>2015-04-30T02:15:58Z</date>
-			<key>plainText</key>
-			<string></string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>5CFBF502-F720-4213-8676-0D8D46C7A800</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -4765,6 +4325,50 @@ can}</string>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>F2620720-B970-465C-B45C-3412CD3BA26E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>therefore</string>
+			<key>abbreviationMode</key>
+			<integer>2</integer>
+			<key>creationDate</key>
+			<date>2015-05-06T22:36:00Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-05-06T22:36:19Z</date>
+			<key>plainText</key>
+			<string>thus</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>A33DD6BC-3052-46BD-8618-D43801D45C47</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>questioning</string>
+			<key>abbreviationMode</key>
+			<integer>1</integer>
+			<key>creationDate</key>
+			<date>2015-05-02T18:28:14Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2015-05-02T18:28:20Z</date>
+			<key>plainText</key>
+			<string>asking</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>60E897B4-0808-49FC-811E-0C5CDF9B53FF</string>
 		</dict>
 	</array>
 </dict>
